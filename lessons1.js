@@ -69,11 +69,121 @@
 
 
 
-const max = 50
-const min = 25
+// const max = 50
+// const min = 25
 
-const result = Math.round(Math.random() * (max - min) + min)
+// const result = Math.round(Math.random() * (max - min) + min)
 
-console.log(result)
+// console.log(result)
 
 // сделал рандомный выбор от 25 до 50 и округлил число
+
+
+
+
+
+
+
+// const message = "jdk"
+// console.log(message.length)
+
+// првоерил сколько букв в тексте
+
+// const firstName = "Pavel "
+// const lastName = "Lilya"
+// const fullName = firstName + ' ' + lastName
+// console.log(fullName)
+
+// const room = "715 "
+// const type = "vip"
+
+
+// const message = "Гость " + firstName + " " + lastName + "Заселится в номер " + room + "Класса " + type
+// console.log(message)
+
+// Конкатенация строк сшил строки в одно
+
+
+// const message = `Гости ${firstName + lastName} заселятся в  ${type} номер ${room}`
+
+// console.log(message)
+
+// сделал все проще через шаблонные строки
+
+  
+
+
+
+
+// const brand = 'Samsung'
+// const b = 'samsung'
+
+// const normalized = brand.toLowerCase()
+// const normalized = brand.toUpperCase()
+// console.log(normalized)
+
+
+// привел все в нижний регистр toLowerCase()
+// привел все в верхний  регистр toUpperCase()
+
+
+
+// const blackList = 'спам'
+// const blackList2 = 'G'
+
+// const string1 = "привет Павел это не спам "
+// const string2 = 'sjejijsoijiojeo G'
+// const string3 = 'Ghbdt G спам'
+
+// const result = string1.includes(blackList,blackList2)
+// console.log(result)
+
+// ПРОВЕРИЛ НА СОВПАДЕНИЯ СЛОВ
+
+
+// лОГИЧЕСКИЙ ОПЕРАТОР И &&
+// Запинается на лжи
+// возвращает первую ложь или если нет лжи то посл значение
+
+// console.log(5 && 6 && 7 && 8 && 'hello')
+
+// вернет "hello " так как нет лжи
+
+// console.log(5 && 8 && 0 && 'hello')
+
+// Вернет 0 так как это false
+
+
+
+// Логичксиай оператор || ИЛИ
+// запинается на правде
+// возвращает первую правду либо последенее значение
+
+// console.log(0 || null || false || 5 || undefined)
+
+// вернет 5 так это первая правда
+
+// console.log(0 || null || false || undefined)
+
+// вернет undefined так как правды нет
+
+
+
+
+
+// Решение задач
+
+
+// 1 Напиши скрипт вхождения числа в отрезок обозначенный x1 x2
+
+const x1 = 10 
+const x2 = 30
+const number = 50
+const a = number < x1
+console.log(a)
+const b = number > x2
+console.log(b)
+const c = number < x1 && number > x2
+console.log(c)
+const d = number < x1 || number > x2
+ console.log(d)
