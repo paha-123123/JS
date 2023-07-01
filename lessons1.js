@@ -176,14 +176,52 @@
 
 // 1 Напиши скрипт вхождения числа в отрезок обозначенный x1 x2
 
-const x1 = 10 
-const x2 = 30
-const number = 50
-const a = number < x1
-console.log(a)
-const b = number > x2
-console.log(b)
-const c = number < x1 && number > x2
-console.log(c)
-const d = number < x1 || number > x2
- console.log(d)
+// const x1 = 10
+// const x2 = 30
+// const number = 50
+// const a = number < x1
+// console.log(a)
+// const b = number > x2
+// console.log(b)
+// const c = number < x1 && number > x2
+// console.log(c)
+// const d = number < x1 || number > x2
+//  console.log(d)
+
+
+
+// напиши скрипт который проверяет возможность открыть чат с пользователем
+// для этого он должен быть
+// 1 другом
+// онлайн
+// без режима не беспокоить
+
+// const isOnline = true
+// const isFriend = true
+// const isDnd = false
+
+// const canOpenChat = isOnline && isFriend && !isDnd
+// console.log(canOpenChat)
+
+
+// смогу открыть чат если все условия выполнены
+
+
+// Напиши скрипт проверки подписки при доступе к кконтенту
+// есть два типа подписки бесплатаня и вип
+// получить доступ могут только пользователи про или вип
+
+// const sub = 'pro'
+// const canAccesContent = sub === 'pro' || sub === 'vip'
+
+// console.log(canAccesContent)
+
+
+
+// оператор ветвления
+
+// if () {
+// // тело
+// }
+
+
