@@ -225,3 +225,185 @@
 // }
 
 
+// Ветвление и цыклы
+
+
+
+
+
+
+
+
+// const stars = 4
+// let price
+
+// else_if
+
+// if (stars === 1) {
+//     price = 20
+// } else if (stars === 2) {
+//     price = 30
+// } else if (stars === 3) {
+//     price = 50
+// } else{
+//     console.log("Такого количества звезд нет")
+// }
+
+// Сравнил через else_if количкество звезд и цены
+
+
+
+// Switch
+
+// const stars = 3
+// let price
+
+// switch (stars) {
+//     case 1:
+//         price = 20
+//         break
+//     case 2:
+//         price = 30
+//         break
+//     case 3:
+//         price = 50
+        
+//         break
+//     default: console.log('такого количества звезд нет')
+
+
+// }
+
+// console.log(price)
+
+
+// Сравнил через свитч количество звезд и цены
+
+
+
+
+
+// Напиши скрипт выбора стоимости отеля по кл. звезд
+// 1,2 - 20 3,4 - 30 5 - 120
+//
+
+
+
+// const stars = 3
+// let price
+
+// if (stars === 1 || stars === 2) {
+//     price = 20
+// } else if (stars === 2 ||stars === 3) {
+//     price = 30
+// } else if (stars === 4 || stars === 5) {
+//     price = 50
+// } else{
+//     console.log("Такого количества звезд нет")
+// }
+
+// console.log(price)
+
+// Обьединил два значения по одной цене else_if
+
+
+
+// const stars = 4
+// let price
+
+// switch (stars) {
+//     case 1:
+//     case 2: price = 20
+//         break
+//     case 3:
+//     case 4:
+//         price = 50
+//         break
+//     case 5:
+//         price = 120
+//         break
+//     default:console.log('Такого количества звезд нет')
+// }
+
+// console.log(price)
+
+
+// Обьединил два значения по одной цене switch
+
+
+
+
+// Напиши скрипт выбора опции доставки товара
+// опции хранится в переменной option 1 - самовывоз 2 -курьер 3- почта
+// в переменную message записать сообщения в зависимости от опции
+
+
+// const option = 4
+// let message
+
+// switch (option) {
+//     case 1:
+//         message = 'Вы сможете забрать свой товар завтра в 12 - 00'
+//         break
+//     case 2:
+//         message = 'Курьер доставит ваш товар завтра в 9 -00'
+//         break
+//     case 3:
+//         message = 'Посылка будет отправлена сегодня'
+//         break
+//     default:
+//         message = 'ТАкой опции нет,вам первозвонит менджер'
+// }
+// console.log(message)
+
+
+// Цыкл For
+
+// for (let i = 300; i < 500; i += 3) {
+// console.log(i)}
+
+
+
+// Напиши скрипт который подсчитывает сумму зарплат работников
+// Количество работников хранится в переменной employees
+// Зараплата работников это случайное число от 500 до 5000
+// записать сумму totalSallary и вывести в консоль
+
+
+// Написать переменную employees
+// const minSalary = 500
+// const maxSalary = 5000
+// const employees = 3
+// let totalSalary = 0
+
+// for (let i = 1; i <= employees; i += 1) {
+// const salary = Math.round(Math.random() * (maxSalary - minSalary) + minSalary)
+//     console.log(`Зп работник ${i} = ${salary}`)
+//     totalSalary += salary
+// }
+// console.log(totalSalary)
+
+//1. Перебрал работников
+// 2.Сгенерил случайную зп
+// 3.Приплюсовал к TotalSalary
+// Вывел в окнсоль общу сумму зп
+
+
+
+// Напиши скрпит которыцй подсчитывает сумму всех четных чисел
+// которые аходят в диапазон переменных от мин до мах
+
+const min = 6
+const max = 13
+let total = 0
+
+for (let i = min; i < max; i += 2) {
+    total += i
+console.log(i)
+}
+
+console.log(total)
+
+
+
+
