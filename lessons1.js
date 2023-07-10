@@ -504,6 +504,5 @@
 
   
    
-const btnLink = document.querySelector('button')
+// const btnLink = document.querySelector('button')
 
-console.log(btnAdd)
