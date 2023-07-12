@@ -224,4 +224,113 @@
 
 // напиши скрипт поиска логина если логин есть выведи сообщение 'логин найден ' если логи нет 'такого логина не найдено'
 
-const logins = 
+// const logins = ['maNgo', 'kiwi', 'poliscut']
+// const loginToFind = 'maNgo'
+// let message
+
+// for (let login of logins) {
+//     if (loginToFind === login) {
+//         message = 'найден'
+//         break
+//     }
+ 
+//     message = 'не найден'
+// }
+
+// console.log(message)
+
+// for (let i = 0; i < logins.length; i += 1){
+//     const login = logins[i]
+//      if (loginToFind === login) {
+//         message = 'найден'
+//         break
+//     }
+// message = 'не найден'
+// }
+
+// console.log(message)
+
+// Сделал все через обычный For
+
+
+
+
+// const result = logins.includes(loginToFind) ? 'найден' : 'не найден'
+
+// console.log(result)
+
+// Тоже самое использовал тернарник
+
+
+
+
+
+// Напиши скрипт поиска самого маленького числа в масисве
+// при условии если числа не повторяются
+
+
+// const numbers = [51, 999, 34, 444, 59]
+// let minNumber = numbers[0]
+
+// for (let number of numbers){
+//     // console.log(number)
+    
+//     if (minNumber < number) {
+//    minNumber = number}
+// }
+
+// console.log(minNumber)
+
+// перебрал и выявил самое маленькое чсило в массиве
+
+
+
+// for (let number of numbers) {
+//     console.log(number)
+
+//     if (number > minNumber) {
+//     minNumber = number}
+
+// }
+// console.log(minNumber)
+
+// Выявил самое большое число в масисве
+
+
+
+// напиши скрипт который обьеденяет все элементы массива в одностроковое
+// значение
+// элементов может быть произвольное количество
+// пусть элементы массива будут разделены запятой
+// сначала через For
+// Потом  join
+
+// const friends = ['Mango', 'Poly', 'Kiwi', 'Ajax']
+// let result = ''
+
+// for (const friend of friends) {
+ 
+//     result += friend + ','
+  
+// }
+// result = result.slice(0, result.length -1)
+
+
+// result = friends.join(',')
+
+// const pawa = result.split()
+// В кавычках передается чем будут разделены
+// Метод join
+
+// console.log(result)
+// console.log(pawa)
+
+
+
+// Напиши скрипт который заменяет регистр кажого символа в строке на противорположный
+// Например если JavaScript то на выходе должно получистя jAVAsCRIPT
+
+
+const string = 'JavaScript'
+
+for()
