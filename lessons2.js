@@ -331,6 +331,60 @@
 // Например если JavaScript то на выходе должно получистя jAVAsCRIPT
 
 
-const string = 'JavaScript'
+// const string = 'JaQmsciRRRRaScript'
 
-for()
+// const letters = string.split('')
+// let newLetter = ''
+
+
+// console.log(letters)
+
+
+
+// for (const letter of letters) {
+    
+//     if (letter === letter.toLowerCase()) {
+//         // console.log('эта буква в нижнем регистре', letter)
+//         newLetter += letter.toUpperCase()
+//     } else  {
+//     newLetter += letter.toLowerCase()
+//     }
+
+// } console.log(newLetter)
+
+// Выполнил олд скул
+// let newLetter = ''
+
+// for (const letter of letters) {
+// newLetter += letter === letter.toLocaleLowerCase() ? letter.toLocaleUpperCase() : letter.toLowerCase()
+// }
+
+// console.log(newLetter)
+
+// Тоже самое только проще через тернарник
+
+
+// Делаем slug в URL из названия статьи (например dev.to)
+// заголовок статьи состоит только из букв и пробелов
+
+// Нормализируем строку
+// Разбивыаем по словам
+// Сшиваем в строку с раздилителем
+
+
+const title = 'Top 10 benefits of React framework'
+const normalized = title.toLowerCase()
+// console.log(normalized)
+
+const words = normalized.split(' ')
+// console.log(words)
+
+const slug = words.join('-')
+// console.log(slug)
+
+
+const slug1 = title.toLowerCase().split(' ').join('-')
+
+console.log(slug1)
+
+// Сделал все проще вызвал поочередно все методы на одной переменной Декларативный код 
