@@ -372,19 +372,71 @@
 // Сшиваем в строку с раздилителем
 
 
-const title = 'Top 10 benefits of React framework'
-const normalized = title.toLowerCase()
+// const title = 'Top 10 benefits of React framework'
+// const normalized = title.toLowerCase()
 // console.log(normalized)
 
-const words = normalized.split(' ')
+// const words = normalized.split(' ')
 // console.log(words)
 
-const slug = words.join('-')
+// const slug = words.join('-')
 // console.log(slug)
 
 
-const slug1 = title.toLowerCase().split(' ').join('-')
+// const slug1 = title.toLowerCase().split(' ').join('-')
 
-console.log(slug1)
+// console.log(slug1)
 
-// Сделал все проще вызвал поочередно все методы на одной переменной Декларативный код 
+// Сделал все проще вызвал поочередно все методы на одной переменной Декларативный код
+
+
+
+
+
+// Напиши скрипт который считает сумму всех чисел массива
+
+// const array1 = [1, 2, 3, 4]
+// const array2 = [5, 6, 7, 8]
+// let total = 0
+
+// const array3 = array1.concat(array2)
+
+// for (const arr of array3) {
+//     console.log(arr)
+//     total += arr
+// }
+// console.log(total)
+
+
+
+
+// метод splice
+
+// Работаем с колекцией карточек trello
+// Удаляем добавляем заменяем
+
+const cards = ['Карточка-1','Карточка-2','Карточка-3','Карточка-4']
+
+    console.table(cards)
+    // Удаление по индексу indexOf()
+
+// const cardRemove = 'Карточка-3'
+// const index = cards.indexOf(cardRemove)
+// console.log(index)
+
+// const remove = cards.splice(index, 2)
+// console.log(cards)
+
+
+// Замена
+
+// const chench = cards.splice(2, 1, 'Rfeifsjjo')
+// console.log(cards)
+
+
+// Добавление
+
+const newCard = cards.splice(2, null, 'Dflbr','sdoijoiej')
+console.log(cards)
+
+
