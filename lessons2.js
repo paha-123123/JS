@@ -415,9 +415,9 @@
 // Работаем с колекцией карточек trello
 // Удаляем добавляем заменяем
 
-const cards = ['Карточка-1','Карточка-2','Карточка-3','Карточка-4']
+// const cards = ['Карточка-1','Карточка-2','Карточка-3','Карточка-4']
 
-    console.table(cards)
+//     console.table(cards)
     // Удаление по индексу indexOf()
 
 // const cardRemove = 'Карточка-3'
@@ -436,7 +436,93 @@ const cards = ['Карточка-1','Карточка-2','Карточка-3','�
 
 // Добавление
 
-const newCard = cards.splice(2, null, 'Dflbr','sdoijoiej')
-console.log(cards)
+// const newCard = cards.splice(2, null, 'Dflbr','sdoijoiej')
+// console.log(cards)
 
 
+
+
+
+// Функции
+
+
+// const add = function (x, y) {
+//     const result = x + y
+    
+//   return result
+
+// }
+
+// add(73,14)
+
+
+// const fn = function (value) {
+
+//   if (value < 50) {
+//     return "меньше чем 50"
+//   }
+//   return ' Больше чем 50'
+
+// }
+
+// console.log(fn(400))
+
+
+// напиши функцию calculateTotalprice
+// которая принимает массив цен
+// const cart = [54, 22, 54, 26, 73, 98]
+// const cart2 = [77,89,90,87,76]
+
+
+// const calculateTotalprice = function (items) {
+ 
+//     let total = 0
+//   for (const item of items ) {
+
+//  total += item  }
+// return total
+// }
+
+
+// console.log(calculateTotalprice(cart))
+// console.log(calculateTotalprice(cart2))
+
+
+
+// Напиши функцию logItems(items) для перебора и логирования массива
+
+// const logItems = function (items) {
+//   for (const item of items) {
+//  console.log(item)
+//   }
+
+// }
+
+
+// logItems(['mango','kiwi','pawa'])
+
+// logItems([15, 39, 33])
+
+
+
+
+// Напиши функцию findLogin(allLogins , login) для поиска логина
+// если логина нет вывести соббщения 'Пользователь [логин] не найден'
+// // если логин есть вывести соббщения 'Пользователь [логин]  найден'
+
+
+const logins = ['pawa', 'lilya', 'marat']
+
+
+
+const findLogin = function (allLogins, login) {
+  const message = logins.includes(login) ? `Пользователь ${login}  найден` : `Пользователь ${login} не найден`
+  return message
+
+}
+
+console.log(findLogin(logins, 'pawa'))
+
+console.log(findLogin(logins, 'misha'))
+console.log(findLogin(logins, 'kolya'))
+console.log(findLogin(logins,'marat'))
