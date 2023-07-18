@@ -511,18 +511,161 @@
 // // если логин есть вывести соббщения 'Пользователь [логин]  найден'
 
 
-const logins = ['pawa', 'lilya', 'marat']
+// const logins = ['pawa', 'lilya', 'marat']
 
 
 
-const findLogin = function (allLogins, login) {
-  const message = logins.includes(login) ? `Пользователь ${login}  найден` : `Пользователь ${login} не найден`
-  return message
+// const findLogin = function (allLogins, login) {
+//   const message = logins.includes(login) ? `Пользователь ${login}  найден` : `Пользователь ${login} не найден`
+//   return message
+  
+// }
 
-}
+// console.log(findLogin(logins, 'pawa'))
 
-console.log(findLogin(logins, 'pawa'))
+// console.log(findLogin(logins, 'misha'))
+// console.log(findLogin(logins, 'kolya'))
+// console.log(findLogin(logins,'marat'))
 
-console.log(findLogin(logins, 'misha'))
-console.log(findLogin(logins, 'kolya'))
-console.log(findLogin(logins,'marat'))
+
+// Напиши функцию findSmallesNumber(numbers) для поиска самого маленького числа в массиве
+// если числа уникальны
+
+// const findSmallesNumber = function (numbers) {
+//   let smallesNumber = numbers[0]
+  
+//   for (const number of numbers) {
+//     if (number < smallesNumber) {
+//       smallesNumber = number
+      
+//     }
+  
+//   }
+// return smallesNumber
+// }
+
+
+
+
+// const string = [14, 110, 13,-2]
+
+// console.log(findSmallesNumber(string))
+
+
+
+
+
+
+
+// Напиши фнукцию changeCase(string) которая заменяет регистр
+// каждого символа в строке на противоположный
+
+
+// const changeCase = function (string) {
+
+// const letters = string.split('')
+//   let newString = ''
+  
+//   for (const letter of letters) {
+//     const isInLowerCase = letter === letter.toLowerCase()
+//     newString += isInLowerCase ? letter.toUpperCase() : letter.toLowerCase()
+  
+//   }
+
+//   return newString
+// }
+ 
+// const string2 = 'RybinPavel'
+//  console.log(changeCase(string2))
+
+
+
+// Напиши функцию slugify(string) которая получает строку и возвращает Urlslug
+// строка состоитт только из букв и пробелов
+
+// const slugify = function (string) {
+//  return string.toLowerCase().split(' ').join(' ')
+// }
+
+
+// console.log(slugify('Я павел Рыбин'))
+// console.log(slugify('Моя мама - алла'))
+
+
+
+
+
+// Array.from
+
+
+// const fn = function () {
+//    const args = Array.from(arguments)
+  
+//   console.log(args)
+// }
+
+// console.log(fn(1, 2, 2, 3, 4))
+// console.log(fn(1, 2, 2, 3, 4))
+// console.log(fn(1, 2, 2, 3, 4))
+
+
+
+
+
+
+
+
+
+// ...rest
+
+// const fn = function (...args) {
+//   console.log(args)
+  
+// }
+
+// console.log(fn('hello',1, 2, 2, 3, 4))
+// console.log(fn(1, 2, 2, 3, 4))
+// console.log(fn(1, 2, 2, 3, 4))
+
+// собрал все аргументы в одном параметре
+
+
+
+// Напиши функцию add для проищвольного сложаения количества аргументов (чисел)
+
+
+// ...rest
+
+
+
+// const add = function (...args) {
+//   console.log(args)
+// let total = 0
+//   for (const arg of args) {
+//     total += arg
+//   }
+//   return total
+
+
+  
+// }
+
+
+
+// Array.from()
+// const add = function () {
+// let total = 0
+
+//   const args = Array.from(arguments)
+//   console.log(args)
+//   for (const arg of args) {
+//     total += arg
+//   }
+//  return total
+// }
+
+
+
+
+// console.log(add(1, 2, 3, 4, 5, 6, 7, 8,))
+// console .log(add(1,2,3,4,5,6,7,8,9,0,0,5))
